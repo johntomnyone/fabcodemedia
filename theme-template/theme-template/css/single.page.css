@@ -1,0 +1,452 @@
+/* Single Page Header */
+.single-header-container {
+    display: flex;
+    height: 200px;
+    background-color: #1C1C1C;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.single-header-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Single Page Styling Starts here */
+.single-container {
+    /* width: 100%; */
+}
+
+.product-title {
+    display: flex;
+    font-size: 42px;
+    letter-spacing: 0.1px;
+    justify-content: center;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.main-body-container {
+    width: 100vw;
+    background-color: #3E008C;
+}
+
+.single-sec-container {
+    display: flex;
+    max-width: 1040px;
+    padding: 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .single-sec-container {
+        display: flex;
+        flex-direction: column;
+        /* max-width: 1040px; */
+        padding: 20px 0;
+        margin: 0;
+    }
+}
+
+.single-sec-1 {
+    width: inherit;
+    background-color: #1C1C1C;
+    padding: 40px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .single-sec-1 {
+        /* width: inherit; */
+        padding: 0;
+        margin: 0;
+    }
+    .single-sec-1 img {
+        width: 100%;
+    }
+}
+
+.single-sec-1 .single-col-6 {
+    margin: 0 20px;
+}
+
+.single-container .single-sec-1 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    .single-container .single-sec-1 {
+        display: block;
+        /* width: 100%; */
+        justify-content: center;
+    }
+}
+
+.single-sec-1 .single-prod-img {
+    display: flex;
+    margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+    .single-sec-1 .single-prod-img {
+        margin: 0 auto;
+        padding: 40px;
+    }
+}
+
+.single-container .single-sec-1 .single-prod-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.single-col-6 .single-prod-title h3 {
+    font-size: 42px ;
+    padding: 0 20px;
+}
+@media screen and (max-width: 768px) {
+    .single-col-6 .single-prod-title h3 {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+        font-size: 32px;
+    }
+}
+
+.single-prod-text p {
+    /* line-height: 32px; */
+    padding: 20px;
+}
+@media screen and (max-width: 768px) {
+    .single-prod-text p {
+        padding: 10px 20px;
+        text-align: justify;
+    } 
+}
+
+.single-col-6 .single-cta-btn {
+    display: flex;
+    width: 100%;
+    padding: 20px auto;
+    justify-content: center;
+}
+
+.single-sec-1 .single-col-6 .single-cta-btn a {
+    width: 100%;
+    padding: 10px 40px;
+    background-color: #3E008C;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    box-shadow: 4px 5px 6px rgb(43, 43, 43);
+}
+
+.single-sec-1 .single-col-6 .single-cta-btn a:hover {
+    background-color: #1C1C1C;
+}
+
+.single-sec-1 .single-col-6 .single-rating {
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+/* Single page section 2 */
+.single-sec-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px 0;
+    justify-content: center;
+    background-color: #ffffff;
+    /* overflow: hidden; */
+}
+
+.single-sec-container-2 {
+    max-width: 1040px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.single-sec-2-title {
+    padding: 20px;
+}
+
+.single-sec-2-demo {
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    .single-sec-2-demo {
+        display: block;
+    }
+}
+
+.single-sec-2-demo .col-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.single-sec-2-demo .col-6 h3 {
+    font-size: 34px;
+    padding: 20px 0;
+}
+
+.single-sec-2-demo .col-6 a {
+    width: 20vmax;
+    font-size: 24px;
+    padding: 10px 30px;
+    text-align: center;
+    margin: 40px auto;
+    box-shadow: 4px 5px 6px #eee;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .single-sec-2-demo .col-6 a {
+        width: 50vmax;
+    }
+}
+
+.single-sec-2-demo .col-6 a:hover {
+    background-color: #3E008C;
+    color: #ffffff;
+}
+
+.single-sec-2-demo .col-6 video {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.single-sec-2-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.single-sec-2-cta a {
+    width: 30vw;
+    padding: 10px 50px;
+    background-color: #3E008C;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    box-shadow: 5px 6px 4px rgb(189, 189, 189);
+}
+
+.single-sec-2-cta a:hover {
+    background-color: #1C1C1C;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .single-sec-2-cta a {
+        width: 100%;
+        margin: 0 20px;
+    }
+}
+
+/* Section 3 style starts here */
+.single-sec-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px 0;
+    justify-content: center;
+    background-color: #1C1C1C;
+    color: #ffffff;
+    /* overflow: hidden; */
+}
+
+.single-sec-container-3 {
+    max-width: 1040px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.single-sec-3-title {
+    padding: 20px;
+}
+
+.single-sec-3-demo {
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;
+}
+@media screen and (max-width: 768px) {
+    .single-sec-3-demo {
+        display: block;
+    }
+}
+
+.single-sec-3-demo .col-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.single-sec-3-demo .col-4 h3 {
+    font-size: 34px;
+    padding: 20px 0;
+}
+
+.single-sec-3-demo .col-4 p {
+    padding: 0 0 40px 0;
+}
+
+.single-sec-3-demo .col-4 div a {
+    width: 50vw;
+    font-size: 24px;
+    padding: 10px 30px;
+    margin: 40px auto;
+    text-align: center;
+    box-shadow: 4px 5px 6px #eee;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .single-sec-3-demo .col-4 a {
+        width: 50vmax;
+    }
+}
+
+.single-sec-3-demo .col-4 a:hover {
+    background-color: #3E008C;
+    color: #ffffff;
+}
+
+.single-sec-3-demo .col-8 {
+    padding: 40px;
+}
+.single-sec-3-demo .col-8 video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.single-sec-3-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.single-sec-3-cta a {
+    width: 30vw;
+    padding: 10px 50px;
+    background-color: #3E008C;
+    color: #ffffff;
+    font-size: 30px;
+    border: none;
+    text-align: center;
+    box-shadow: 5px 6px 4px rgb(58, 58, 58);
+}
+
+.single-sec-3-cta a:hover {
+    background-color: #1C1C1C;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .single-sec-3-cta a {
+        width: 100%;
+        margin: 0 20px;
+    }
+}
+
+/* Single Page Styling Section 4 */
+.single-sec-4 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.single-sec-container-4 {
+    padding: 40px;
+}
+
+.single-sec-container-4 {
+    max-width: 1040px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.single-sec-container-4 a {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.single-sec-4-header {
+    margin: 50px 0;
+}
+@media screen and (max-width: 768px) {
+    .single-sec-4-header {
+        text-align: center;
+    } 
+    .single-sec-4-header h2 {
+        font-size: 20px;
+        color: #3E008C;
+    }
+    .single-sec-4-header p {
+        padding: 20px;
+        font-weight: 700;
+    }
+}
+
+.single-page-bonus {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .single-page-bonus {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .single-page-bonus {
+        display: block;
+    }
+    .single-page-bonus div img {
+        width: 100%;
+    }
+}
+
+.single-page-bonus div img {
+    width: 200px;
+}
+@media screen and (max-width: 480px) {
+    .single-page-bonus div img {
+        width: 100%;
+    }
+    /* .single-sec-3::after {
+        content: "Copyright © 2022 | FabCodeMedia";
+        display: flex;
+        justify-content: center;
+        background-color: #1C1C1C;
+        padding: 20px;
+        color: #ffffff;
+    } */
+}
